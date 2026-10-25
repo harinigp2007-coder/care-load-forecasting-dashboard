@@ -100,6 +100,9 @@ def download(label, frame, filename, key):
 
 daily = read_csv(BASE_DIR / "prepared_daily_data.csv")
 forecasts = read_csv(OUT / "future_forecasts.csv")
+
+if forecasts is None or forecasts.empty:
+    forecasts = read_csv(BASE_DIR / "forecast.csv")
 models = read_csv(OUT / "model_comparison.csv")
 care_test = read_csv(OUT / "children_in_hhs_care_test_predictions.csv")
 discharge_test = read_csv(OUT / "children_discharged_from_hhs_care_test_predictions.csv")
