@@ -1,0 +1,7 @@
+Target,Model,MAE,RMSE
+Children in HHS Care,Naive Baseline,285.912841144363,317.350662620438
+Children in HHS Care,Linear Regression,722.4325707954682,852.194928507521
+Children in HHS Care,Random Forest,262.7454590747047,300.45474374323857
+Children discharged from HHS Care,Naive Baseline,1.8907890471677657,2.139614324376449
+Children discharged from HHS Care,Linear Regression,25.61385437005676,28.35934671747178
+Children discharged from HHS Care,Random Forest,4.10358049346197,4.8168269775475885
